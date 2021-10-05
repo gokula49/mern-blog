@@ -1,0 +1,54 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 250px;
+    margin: 10px;
+}
+
+.log {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: brown;
+    position: relative;
+    cursor: pointer;
+}
+
+.reg {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: brown;
+    position: relative;
+    cursor: pointer;
+}
+
+.log:hover {
+    border: 1px solid red;
+    background: burlywood;
+    transition: 1s;
+}
+
+.reg:hover {
+    border: 1px solid red;
+    background: burlywood;
+    transition: 1s;
+}
+
+.heading {
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 93%;
+    color: white;
+    padding: 30px;
+    margin: 20px;
+}
